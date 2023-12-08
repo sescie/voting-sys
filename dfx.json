@@ -1,0 +1,12 @@
+{
+  "canisters": {
+    "vote_sys": {
+      "type": "custom",
+      "build": "npx azle vote_sys",
+      "root": "src",
+      "ts": "src/index.ts",
+      "candid": "src/index.did",
+      "wasm": ".azle/vote_sys/vote_sys.wasm.gz"
+    }
+  }
+}
